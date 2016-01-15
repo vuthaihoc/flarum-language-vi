@@ -4,7 +4,7 @@
     "description": "Gói ngôn ngữ tiếng Việt.",
     "keywords": ["locale"],
     "license": "MIT",
-    "version": "v0.1.0",
+    "version": "0.1.2",
     "authors": [
         {
             "name": "Vu Thai Hoc",
