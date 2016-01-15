@@ -2,14 +2,16 @@
 
 ## Phù hợp ##
 
-* v0.1.3 cho Flarum 0.1.4
+#### v0.1.0
+
+* Flarum 0.1.0 beta 4
+* flarum-auth-facebook
 
 
 ## Todo ##
 
 * C1: Copy vào thư mục extension
 * C2: Composer 
-
 
     composer require vuthaihoc/flarum-language-vi
 
