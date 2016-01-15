@@ -1,0 +1,97 @@
+flarum-tags:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Strings in this namespace are used by the admin interface.
+  admin:
+
+    # These strings are used in the Basics page.
+    basics:
+      tags_label: => flarum-tags.ref.tags
+
+    # These strings are used in the Edit Tag modal dialog.
+    edit_tag:
+      color_label: Màu
+      description_label: Mô tả
+      delete_tag_button: Xóa thẻ
+      delete_tag_confirmation: "Bạn có chắc chắn muốn xóa thẻ này? Các thảo luận của thẻ sẽ không bị xóa."
+      hide_label: Ẩn khỏi các thảo luận
+      name_label: => flarum-tags.ref.name
+      name_placeholder: => flarum-tags.ref.name
+      slug_label: Slug
+      submit_button: => core.ref.save_changes
+      title: => flarum-tags.ref.create_tag
+
+    # These strings are used in the navigation bar.
+    nav:
+      tags_button: => flarum-tags.ref.tags
+      tags_text: Quản lý danh sách các thẻ có sẵn.
+
+    # These strings are used in the Permissions page of the admin interface.
+    permissions:
+      restrict_by_tag_heading: Giới hạn bởi thẻ
+      tag_discussions_label: Mô tả thẻ
+    # These strings are used in the Tag Settings modal dialog.
+    tag_settings:
+      range_separator_text: " tới "
+      required_primary_heading: Số chủ đề chính cần nhập
+      required_primary_text: Nhập số chủ đề chính tối đa và tối thiểu cần có cho một thảo luận.
+      required_secondary_heading: Số chủ đề phụ cần nhập
+      required_secondary_text: Nhập số chủ đề phụ tối đa và tối thiểu cần có cho một thảo luận
+      title: Cài đặt chủ đề
+    # These strings are used in the Tags page.
+    tags:
+      about_tags_text: "Tags are used to categorize discussions. Primary tags are like traditional forum categories: they can be arranged in a two-level hierarchy. Secondary tags do not have hierarchy or order, and are useful for micro-categorization."
+      create_tag_button: => flarum-tags.ref.create_tag
+      primary_heading: Chủ đề chính
+      secondary_heading: Chủ đề phụ 
+      settings_button: Cài đặt
+
+  # Strings in this namespace are used by the forum user interface.
+  forum:
+
+    # These strings are used by the Choose Tags modal dialog.
+    choose_tags:
+      choose_primary_placeholder: "Chọn một chủ đề cha|Chọn {count} chủ đề con"
+      choose_secondary_placeholder: "Chọn thêm một chủ đề|Chọn {count} thêm chủ đề"
+      edit_title: "Thay đổi chủ đề cho {title}"
+      submit_button: => core.ref.okay
+      title: Chọn chủ đề cho thảo luận của bạn
+
+    # These strings are used by the composer when starting a discussion.
+    composer_discussion:
+      choose_tags_link: Chọn thẻ
+
+    # These strings are used by the discussion control buttons.
+    discussion_controls:
+      edit_tags_button: Sửa thẻ
+
+    # These strings are used on the index page, peripheral to the discussion list.
+    index:
+      tags_link: => flarum-tags.ref.tags
+      more_link: Xem thêm ...
+      untagged_link: Không có thẻ
+
+    # These strings are displayed between posts in the post stream.
+    post_stream:
+      added_tags_text: "{username} đã thêm {tagsAdded}."
+      added_and_removed_tags_text: "{username} đã thêm {tagsAdded} và đã xóa {tagsRemoved}."
+      removed_tags_text: "{username} đã xóa {tagsRemoved}."
+      tags_text: "{tags} tag|{tags} tags"
+
+  # Strings in this namespace are used by the forum and admin interfaces.
+  lib:
+
+    # This string is displayed in place of the name of a tag that's been deleted.
+    deleted_tag_text: Xóa
+  ##
+  # REUSED STRINGS - These keys should not be used directly in code!
+  ##
+
+  # Strings in this namespace are referenced by two or more unique keys.
+  ref:
+    create_tag: Tạo thẻ mới
+    name: Tên thẻ
+    tags: Thẻ

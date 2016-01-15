@@ -1,0 +1,53 @@
+flarum-subscriptions:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Strings in this namespace are used by the forum user interface.
+  forum:
+
+    # These strings are displayed as tooltips for discussion badges.
+    badge:
+      following_tooltip: => flarum-subscriptions.ref.following
+      ignoring_tooltip: => flarum-subscriptions.ref.ignoring
+
+    # These strings are used by the discussion control buttons.
+    discussion_controls:
+      follow_button: => flarum-subscriptions.ref.follow
+      unfollow_button: Bỏ theo dõi
+      unignore_button: Không bỏ qua
+
+    # These strings are used on the index page, peripheral to the discussion list.
+    index:
+      following_link: => flarum-subscriptions.ref.following
+
+    # These strings are used by the Notifications dropdown, a.k.a. "the bell".
+    notifications:
+      new_post_text: "{username} Đã đăng"
+
+    # These strings are used in the Settings page.
+    settings:
+      notify_new_post_label: Một vài bài đăng trong cuộc thảo luận mà tôi đang theo dõi
+
+    # These strings are used in the subscription menu displayed to the right of the post stream.
+    sub_controls:
+      follow_button: => flarum-subscriptions.ref.follow
+      following_button: => flarum-subscriptions.ref.following
+      following_text: Gửi thông báo khi có trả lời.
+      ignoring_button: => flarum-subscriptions.ref.ignoring
+      ignoring_text: Không gửi thông báo. Ẩn từ danh sách thảo luận.
+      not_following_button: Đang không theo dõi
+      not_following_text: "Chỉ gửi thông báo khi bạn được nhắc tới @mentioned."
+      notify_email_tooltip: Nhận email thông thông báo khi có bài đăng mới
+      notify_alert_tooltip: Nhận thông báo từ diễn đàn khi có bài đăng mới
+
+  ##
+  # REUSED STRINGS - These keys should not be used directly in code!
+  ##
+
+  # Strings in this namespace are referenced by two or more unique keys.
+  ref:
+    follow: Theo dõi
+    following: Đang theo dõi
+    ignoring: Bỏ qua

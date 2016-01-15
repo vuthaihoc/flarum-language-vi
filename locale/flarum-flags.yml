@@ -1,0 +1,60 @@
+flarum-flags:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Strings in this namespace are used by the admin interface.
+  admin:
+
+    # These strings are used in the Permissions page of the admin interface.
+    permissions:
+      flag_posts_label: Các bài bị báo xấu
+      view_flags_label: Xem các bài bị báo xấu
+
+    # These strings are used in the Flags Settings modal dialog.
+    settings:
+      guidelines_url_label: Liên kết quy định viết bài
+      title: Cài đặt chức năng báo xấu
+
+  # Strings in this namespace are used by the forum user interface.
+  forum:
+
+    # These strings are used by the Flag Post modal dialog.
+    flag_post:
+      confirmation_message: Cảm ơn bạn đã thông báo bài viết có vấn đề. Các quản trị của chúng tôi sẽ xem xét ngay lập tức.
+      dismiss_button: => core.ref.okay
+      reason_inappropriate_label: Không thích hợp
+      reason_inappropriate_text: "Bài viết này vi phạm, lạm dụng, phá hủy <a>quy tắc thảo luận</a> của chúng ta."
+      reason_off_topic_label: "Off-topic"
+      reason_off_topic_text: Post này không phù hợp với cuộc thảo luận hiện tại và cần được di chuyển sang cuộc thảo luận khác.
+      reason_other_label: Khác
+      reason_spam_label: Spam 
+      reason_spam_text: Thảo luận được tài trợ.
+      submit_button: => flarum-flags.ref.flag_post
+      title: => flarum-flags.ref.flag_post
+
+    # These strings are used by the Flagged Posts dropdown, a.k.a. "the flag".
+    flagged_posts:
+      empty_text: Không có báo cáo
+      title: => flarum-flags.ref.flagged_posts
+      tooltip: => flarum-flags.ref.flagged_posts
+
+    # These strings are used by the frame displayed around flagged posts.
+    post:
+      dismiss_flag_tooltip: Bỏ báo xấu
+      flagged_by_text: "{username} Đã báo xấu"
+      flagged_by_with_reason_text: "{username} Đã báo xấu vì {reason}"
+
+    # These strings are used by the post control buttons.
+    post_controls:
+      flag_button: Báo xấu
+
+  ##
+  # REUSED STRINGS - These keys should not be used directly in code!
+  ##
+
+  # Strings in this namespace are referenced by two or more unique keys.
+  ref:
+    flag_post: Báo xấu bài viết
+    flagged_posts: Các bài viết bị bso xấu

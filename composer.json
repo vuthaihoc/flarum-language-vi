@@ -1,0 +1,23 @@
+{
+    "name": "vuthaihoc/flarum-language-vi",
+    "type": "flarum-extension",
+    "description": "Gói ngôn ngữ tiếng Việt.",
+    "keywords": ["locale"],
+    "license": "MIT",
+    "version": "v0.1.3",
+    "extra": {
+        "flarum-extension": {
+            "title": "Tiếng Việt",
+            "icon": {
+                "image": "vn.svg",
+                "backgroundColor": "#00247d",
+                "backgroundSize": "cover",
+                "backgroundPosition": "center"
+            }
+        },
+        "flarum-locale": {
+            "code": "vi",
+            "title": "Việt Nam"
+        }
+    }
+}
