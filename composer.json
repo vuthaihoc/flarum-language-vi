@@ -4,7 +4,13 @@
     "description": "Gói ngôn ngữ tiếng Việt.",
     "keywords": ["locale"],
     "license": "MIT",
-    "version": "v0.1.3",
+    "version": "v0.1.0",
+    "authors": [
+        {
+            "name": "Vu Thai Hoc",
+            "email": "vuthaihoc.ttud@gmail.com"
+        }
+    ],
     "extra": {
         "flarum-extension": {
             "title": "Tiếng Việt",
