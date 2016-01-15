@@ -49,7 +49,7 @@ core:
       delete_button: Xóa nhóm
       delete_confirmation: "Bạn có đồng ý xóa nhóm này? Các thành viên trong nhóm sẽ KHÔNG BỊ xóa."
       icon_label: Icon
-      icon_text: "Enter the name of any <a>FontAwesome</a> icon class, <em>without</em> the <code>fa-</code> prefix."
+      icon_text: "Nhập tên class của bất kỳ icon nào của <a>FontAwesome</a>, <em>không cần</em> ký tự <code>fa-</code> trước đó."
       name_label: Tên
       plural_placeholder: Số nhiều (vd: Mods)
       singular_placeholder: Số ít (vd: Mod)
@@ -58,10 +58,10 @@ core:
     # These strings are used in the Extensions page.
     extensions:
       add_button: Thêm Extension
-      disable_button: Không khả dụng
-      enable_button: Khả dụng
+      disable_button: Tắt
+      enable_button: Bật
       settings_button: => core.ref.settings
-      uninstall_button: Cài đặt
+      uninstall_button: Dỡ cài đặt
 
     # This string is used in the session dropdown menu.
     header:
@@ -77,9 +77,9 @@ core:
       appearance_text: "Tối ưu màu diễn đàn của bạn, logos, và các trường biến khác."
       basics_button: Cơ bản
       basics_text: "Cài đặt tiêu đề diễn đàn của bạn, Ngôn ngữ, and other basic settings."
-      dashboard_button: Dashboard
-      dashboard_text: Your forum at a glance.
-      extensions_button: Extensions
+      dashboard_button: Bảng điều khiển
+      dashboard_text: Tổng quan diễn đàn.
+      extensions_button: Phần mở rộng
       extensions_text: Thêm tính năng phụ cho diễn đàn của bạn và làm cho diễn đàn là của riêng bạn.
       permissions_button: Quyền 
       permissions_text: Cấu hình quyền.
@@ -106,9 +106,9 @@ core:
     # These strings are used in the dropdown menus on the Permissions page.
     permissions_controls:
       allow_indefinitely_button: Vô thời hạn
-      allow_some_minutes_button: "For {count} minute|For {count} minutes"
+      allow_some_minutes_button: "Trong {count} phút|Trong {count} phút"
       allow_ten_minutes_button: Khoảng 10 phút
-      allow_until_reply_button: Cho tới khi trả lời tiếp theo
+      allow_until_reply_button: Cho tới khi có trả lời tiếp theo
       everyone_button: Mọi người
       members_button: => core.group.members
       signup_closed_button: Đã đóng
@@ -155,7 +155,7 @@ core:
       discard_confirmation: "Bạn chưa đăng trả lời. Bạn có đồng ý bỏ qua?"
       posted_message: Trả lời của bạn đã hiển thị.
       submit_button: Thêm trả lời
-      view_button: View
+      view_button: Xem trước
 
     # These strings are used by the discussion control buttons.
     discussion_controls:

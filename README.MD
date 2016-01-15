@@ -7,5 +7,10 @@
 
 ## Todo ##
 
-* Cài đặt ngôn ngữ
+* C1: Copy vào thư mục extension
+* C2: Composer 
+
+
+    composer require vuthaihoc/flarum-language-vi
+
 
