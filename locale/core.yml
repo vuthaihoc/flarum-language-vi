@@ -253,10 +253,10 @@ core:
 
     # These strings are used in the scrubber to the right of the post stream.
     post_scrubber:
-      now_link: Bây giờ
-      original_post_link: Đăng không chỉnh sửa
+      now_link: Hiện tại
+      original_post_link: Bài đầu tiên
       unread_text: "{count} chưa đọc"
-      viewing_text: "{index} của {count} bài|{index} của {count} bài"
+      viewing_text: "#{index} của {count} bài|#{index} của {count} bài"
 
     # These strings are displayed between posts in the post stream.
     post_stream:
