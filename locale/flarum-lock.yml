@@ -29,8 +29,8 @@ flarum-lock:
 
     # These strings are displayed between posts in the post stream.
     post_stream:
-      discussion_locked_text: "{username} Đã khóa cuộc thảo luận."
-      discussion_unlocked_text: "{username} Đã mở cuộc thảo luận."
+      discussion_locked_text: "{username} đã khóa cuộc thảo luận."
+      discussion_unlocked_text: "{username} đã mở cuộc thảo luận."
 
     # These strings are used in the Settings page.
     settings:

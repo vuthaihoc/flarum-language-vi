@@ -1,0 +1,12 @@
+matpompili-imgur-upload:
+  admin:
+    get-id: Lấy ID
+    without: không cần
+    leaveEmpty: Bỏ trống để không sử dụng tính năng cắt ảnh
+    maxImageWidth: Chiều rộng tối đa
+    maxImageHeight: Chiều cao tối đa
+  forum:
+    attach: Thêm Ảnh
+    loading: Đang tải lên...
+    loaded: Đã tải!
+    error: Lỗi

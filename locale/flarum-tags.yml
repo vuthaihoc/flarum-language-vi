@@ -79,7 +79,7 @@ flarum-tags:
       added_tags_text: "{username} đã thêm {tagsAdded}."
       added_and_removed_tags_text: "{username} đã thêm {tagsAdded} và đã xóa {tagsRemoved}."
       removed_tags_text: "{username} đã xóa {tagsRemoved}."
-      tags_text: "{tags} tag|{tags} tags"
+      tags_text: "{tags} chủ đề|{tags} chủ đề"
 
   # Strings in this namespace are used by the forum and admin interfaces.
   lib:

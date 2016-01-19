@@ -1,0 +1,18 @@
+hyn-guardian:
+  package_name: "Người dùng"
+  package_description: "Xem danh sách thành viên và một số thông tin liên quan."
+  generic:
+    never: chưa bao giờ
+  admin:
+    nav:
+      guardian_button: => hyn-guardian.package_name
+      guardian_text: => hyn-guardian.package_description
+    grid:
+      user:
+        joined_at: Đã tham gia
+        last_seen_at: Truy cập
+        badges: Nhóm
+        activated: Hoạt động
+        details: Chi tiết
+        states:
+          never_visited: => hyn-guardian.generic.never

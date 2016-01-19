@@ -57,7 +57,7 @@ core:
       title: Tạo nhóm mới
     # These strings are used in the Extensions page.
     extensions:
-      add_button: Thêm Extension
+      add_button: Thêm phần mở rộng
       disable_button: Tắt
       enable_button: Bật
       settings_button: => core.ref.settings
@@ -74,9 +74,9 @@ core:
     # These strings are used in the navigation bar.
     nav:
       appearance_button: Hiển thị ra ngoài
-      appearance_text: "Tối ưu màu diễn đàn của bạn, logos, và các trường biến khác."
+      appearance_text: "Tối ưu màu diễn đàn của bạn, logo, và các trường biến khác."
       basics_button: Cơ bản
-      basics_text: "Cài đặt tiêu đề diễn đàn của bạn, Ngôn ngữ, and other basic settings."
+      basics_text: "Cài đặt tiêu đề diễn đàn của bạn, ngôn ngữ, và một số cài đặt cơ bản khác."
       dashboard_button: Bảng điều khiển
       dashboard_text: Tổng quan diễn đàn.
       extensions_button: Phần mở rộng
@@ -298,7 +298,7 @@ core:
     # These strings are used in the user profile page and profile popup.
     user:
       avatar_remove_button: Xóa ảnh đại diện
-      avatar_upload_button: Tải ảnh đại diện
+      avatar_upload_button: Đăng ảnh đại diện
       bio_placeholder: Hãy giới thiệu đôi nét về bản thân bạn 
       discussions_link: => core.ref.discussions
       joined_date_text: "Đã tham gia {ago}"
@@ -326,7 +326,7 @@ core:
 
     # These strings are displayed as error messages.
     error:
-      generic_message: "Xin lỗi vì đã xảy ra lỗi khi tải trang, bạn vui lòng nhấn phím F5 để tải lại hoặc chọn logo để trở về trang chủ."
+      generic_message: "Xin lỗi vì đã xảy ra lỗi khi tải trang, bạn vui lòng nhấn phím F5 để tải lại hoặc ấn vào logo để trở về trang chủ."
       permission_denied_message: Tính năng chưa được phân quyền.
       not_found_message: Không tìm thấy yêu cầu của bạn.
       rate_limit_exceeded_message: Hệ thống đang quá tải. Bạn vui lòng thử lại trong ít giây nữa.
@@ -395,12 +395,12 @@ core:
       body: |
         Xin chào {username}!
 
-        Someone (hopefully you!) has signed up to {forum} with this email address.
+        Ai đó (hy vọng đó chính là bạn!) vừa đăng ký {forum} bằng email này.
 
-        If this was you, simply click the following link and your account will be activated:
+        Nếu đúng do bạn đăng ký, hãy ấn vào liên kết dưới đây để kích hoạt:
         {url}
 
-        If you did not sign up, please ignore this email.
+        Nếu không phải là bạn, hãy bỏ qua email này.
 
     # These strings are used in emails sent when users change their email address.
     confirm_email:
@@ -408,12 +408,12 @@ core:
       body: |
         Xin chào {username}!
 
-        Someone (hopefully you!) has changed their email address on {forum} to this one.
+        Ai đó (hy vọng chính là bạn!) đã thay đổi email trên {forum} thành email này.
 
-        If this was you, simply click the following link and your email will be confirmed:
+        Nếu đúng do bạn đăng ký, hãy ấn vào liên kết dưới đây để xác nhận:
         {url}
 
-        If this was not you, please ignore this email.
+        Nếu không phải là bạn, hãy bỏ qua email này.
 
     # These strings are used in emails sent when users ask to reset their passwords.
     reset_password:
@@ -421,12 +421,12 @@ core:
       body: |
         Xin chào {username}!
 
-        Someone (hopefully you!) has submitted a forgotten password request for your account on {forum}.
+        Ai đó (hy vọng chính là bạn!) đã gửi yêu cầu đặt lại mật khẩu trên {forum}.
 
-        If this was you, click the following link to reset your password:
+        Nếu đo là bạn, hãy ấn vào liên kết dưới để đặt lại mật khẩu:
         {url}
 
-        If you do not wish to change your password, just ignore this email and nothing will happen.
+        Nếu bạn không muốn đặt lại mật khẩu, hãy bỏ qua email này và không có gì thay đổi.
 
   ##
   # GROUP NAMES
@@ -434,11 +434,11 @@ core:
 
   # Strings in this namespace are used to translate default group names.
   group:
-    admin: Admin
-    admins: Admins
+    admin: Quản trị
+    admins: Quản trị
     guest: Khách vãng lai
     guests: Khách vãng lai
     member: Thành viên
     members: Các thành viên
-    mod: Mod
-    mods: Mods
+    mod: Quản lý
+    mods: Quản lý
