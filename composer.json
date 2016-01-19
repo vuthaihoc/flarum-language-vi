@@ -1,16 +1,13 @@
 {
     "name": "vuthaihoc/flarum-language-vi",
     "type": "flarum-extension",
-    "description": "Gói ngôn ngữ tiếng Việt.",
-    "keywords": ["locale"],
+    "description": "Vietnamese language package for Flarum.",
+    "keywords": ["locale","vietnamese","flarum"],
     "license": "MIT",
-    "version": "0.1.2",
-    "authors": [
-        {
-            "name": "Vu Thai Hoc",
-            "email": "vuthaihoc.ttud@gmail.com"
-        }
-    ],
+    "author":{
+        "name": "Vu Thai Hoc",
+        "email": "vuthaihoc.ttud@gmail.com"
+    },
     "require": {
         "flarum/core": "^0.1.0-beta.3"
     },
