@@ -9,9 +9,12 @@
         "email": "vuthaihoc.ttud@gmail.com"
     },
     "require": {
-        "flarum/core": "^0.1.0-beta.3"
+        "flarum/core": "^0.1.0-beta.6"
     },
     "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        },
         "flarum-extension": {
             "title": "Tiếng Việt",
             "icon": {
